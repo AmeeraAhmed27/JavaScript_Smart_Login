@@ -1,0 +1,50 @@
+
+body {
+  background: #24353f;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ced4da;
+}
+::placeholder {
+
+  color: #17a2b8;
+}
+h1{
+  color: #17a2b8;
+}
+
+.content{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+input, textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.btn-primary{
+  border-color: #17a2b8;
+  background-color: transparent;
+  color: #17a2b8;
+}
+
+.btn-primary:hover{
+  background-color: #17a2b8;
+  color: #fff;
+  border-color: #17a2b8;
+}
